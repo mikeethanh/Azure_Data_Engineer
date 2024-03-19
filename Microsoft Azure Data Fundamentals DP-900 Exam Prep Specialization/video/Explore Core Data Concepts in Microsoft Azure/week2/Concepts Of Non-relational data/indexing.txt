@@ -1,0 +1,23 @@
+
+Indexing (chỉ mục) trong cơ sở dữ liệu là một cơ chế tối ưu hóa được sử dụng để tăng tốc quá trình truy xuất dữ liệu. Chức năng chính của indexing là tạo ra một cấu trúc dữ liệu phụ để giảm thiểu thời gian tìm kiếm khi thực hiện các truy vấn. Khi dữ liệu được lưu trữ trong cơ sở dữ liệu, chỉ mục sẽ được tạo dựa trên một hoặc nhiều trường cụ thể, giúp hệ thống dễ dàng định vị và truy xuất thông tin.
+
+Dưới đây là một số điểm quan trọng liên quan đến indexing:
+
+Tăng Tốc Truy Vấn:
+
+Chỉ mục giúp tăng tốc quá trình truy vấn bằng cách tạo ra một cấu trúc tối ưu để nhanh chóng định vị dữ liệu cần thiết. Thay vì quét toàn bộ dữ liệu, hệ thống chỉ cần tìm kiếm trong chỉ mục.
+Giảm Tải Cơ Sở Dữ Liệu:
+
+Chỉ mục giúp giảm tải cho cơ sở dữ liệu bằng cách cung cấp một con đường nhanh chóng để truy cập dữ liệu. Điều này làm giảm áp lực lên hệ thống và cải thiện hiệu suất tổng thể.
+Tăng Tính Nhất Quán:
+
+Chỉ mục đảm bảo tính nhất quán của dữ liệu bằng cách giữ cho chỉ mục và dữ liệu gốc đồng bộ. Khi dữ liệu thay đổi, chỉ mục sẽ được cập nhật để phản ánh các thay đổi này.
+Chỉ Mục Có Thể Được Định Nghĩa Trên Nhiều Trường:
+
+Trong một bảng hoặc một tài liệu, có thể có nhiều chỉ mục, mỗi chỉ mục tập trung vào một hoặc một số trường cụ thể. Điều này giúp tối ưu hóa truy xuất cho các truy vấn cụ thể.
+Cần Xem Xét Kỹ Thuật Chỉ Mục:
+
+Việc sử dụng chỉ mục cần được xem xét kỹ lưỡng vì nó có thể tăng kích thước của cơ sở dữ liệu và có ảnh hưởng đến hiệu suất của các thao tác cập nhật và xóa dữ liệu.
+Ví dụ:
+
+Giả sử bạn có một bảng cơ sở dữ liệu "Employees" và muốn tăng tốc quá trình tìm kiếm theo tên của nhân viên. Bằng cách tạo một chỉ mục trên trường "Name", bạn có thể giảm thiểu thời gian truy vấn khi người dùng tìm kiếm nhân viên dựa trên tên.

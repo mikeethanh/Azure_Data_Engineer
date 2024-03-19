@@ -1,0 +1,22 @@
+
+Data Ingestion là một trong những giai đoạn quan trọng của quy trình phân tích dữ liệu. Giai đoạn này liên quan đến việc thu thập và chuyển đổi dữ liệu từ các nguồn khác nhau thành một định dạng mà hệ thống có thể xử lý. Dưới đây là một số khía cạnh quan trọng của giai đoạn này:
+
+Thu Thập Dữ Liệu:
+
+Quá trình bắt đầu từ việc thu thập dữ liệu từ nhiều nguồn khác nhau. Các nguồn này có thể bao gồm cơ sở dữ liệu nội bộ, tệp tin, APIs, log files, sensors, và nhiều nguồn dữ liệu khác.
+Chuẩn Bị Dữ Liệu:
+
+Dữ liệu thường đến từ các nguồn có định dạng và cấu trúc khác nhau. Trước khi chuyển vào hệ thống, dữ liệu cần được chuẩn bị để đảm bảo tính nhất quán và dễ dàng xử lý. Điều này bao gồm việc làm sạch dữ liệu, kiểm tra lỗi, và xử lý các giá trị thiếu.
+Chuyển Đổi Dữ Liệu:
+
+Dữ liệu thường phải được chuyển đổi từ định dạng nguồn sang định dạng mà hệ thống có thể hiểu được. Việc này có thể bao gồm việc chuyển đổi định dạng ngày tháng, đơn vị đo lường, và các biến đổi khác để đảm bảo tính nhất quán.
+Kiểm Tra Dữ Liệu:
+
+Trước khi dữ liệu được chuyển vào hệ thống, nó cần được kiểm tra để đảm bảo tính toàn vẹn và chất lượng. Các kiểm tra này có thể liên quan đến cú pháp, kiểu dữ liệu, và các quy tắc doanh nghiệp.
+Xác Định Đánh Dấu Thời Gian:
+
+Trong nhiều trường hợp, việc xác định thời gian của mỗi bản ghi là quan trọng để phân tích dữ liệu theo thời gian. Việc này thường được thực hiện trong giai đoạn ingestion để thuận tiện cho các phân tích tương lai.
+Xử Lý Dữ Liệu Lớn (Big Data):
+
+Trong trường hợp dữ liệu lớn, việc xử lý cần được tối ưu hóa để đảm bảo hiệu suất và khả năng mở rộng của hệ thống.
+Quá trình Data Ingestion đặt nền tảng quan trọng cho các hoạt động phân tích dữ liệu. Nếu dữ liệu không được thu thập và chuẩn bị đúng cách từ đầu, các giai đoạn phân tích sau cũng sẽ gặp khó khăn và có thể dẫn đến kết quả không chính xác.

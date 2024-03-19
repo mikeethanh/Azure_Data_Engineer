@@ -1,0 +1,27 @@
+Cấu trúc key-value là một mô hình cơ sở dữ liệu phi quan hệ trong hệ thống NoSQL, trong đó dữ liệu được tổ chức và lưu trữ dưới dạng các cặp khóa (key) và giá trị (value). Dưới đây là một số đặc điểm chính của mô hình cấu trúc key-value:
+
+Tổ Chức Đơn Giản:
+
+Dữ liệu được tổ chức một cách đơn giản với mỗi mục được lưu trữ dưới dạng cặp key-value. Mô hình này thường không có các quan hệ phức tạp giữa các mục dữ liệu.
+Hiệu Suất Cao:
+
+Do cấu trúc đơn giản và thiếu các liên kết phức tạp, cơ sở dữ liệu key-value thường cung cấp hiệu suất cao cho các hoạt động đọc và ghi, đặc biệt là khi cần xử lý lượng dữ liệu lớn.
+Khả Năng Mở Rộng Ngang (Horizontal Scaling):
+
+Các cơ sở dữ liệu key-value thường hỗ trợ khả năng mở rộng ngang, tức là có thể thêm vào các node mới để mở rộng khả năng chịu tải một cách dễ dàng.
+Linh Hoạt Trong Cấu Trúc Dữ Liệu:
+
+Giá trị (value) có thể chứa bất kỳ loại dữ liệu nào, từ các kiểu cơ bản như số, chuỗi đến các đối tượng phức tạp như JSON, XML. Điều này tạo ra sự linh hoạt lớn trong cách dữ liệu được biểu diễn.
+Sự Phụ Thuộc Lớn Vào Key:
+
+Truy cập dữ liệu thường dựa vào key. Việc này giúp cải thiện hiệu suất truy cập, nhưng đồng thời cũng đặt ra thách thức khi cần thực hiện các truy vấn phức tạp dựa trên giá trị.
+Dễ Dàng Mở Rộng Dữ Liệu:
+
+Các hệ thống key-value thường dễ dàng mở rộng dữ liệu mới mà không cần thay đổi cấu trúc hiện tại. Điều này giúp tối ưu hóa quá trình phát triển và triển khai.
+Thích Hợp Cho Các Tình Huống Đơn Giản:
+
+Cấu trúc key-value thích hợp cho các tình huống đơn giản như lưu trữ phi cấu trúc hoặc lưu trữ dữ liệu tạm thời, như caching.
+Lưu Trữ Cache Hiệu Quả:
+
+Mô hình key-value thường được sử dụng làm cơ sở cho các hệ thống lưu trữ cache, nơi khóa là một giá trị duy nhất và giúp tăng tốc quá trình truy cập dữ liệu.
+Các hệ cơ sở dữ liệu key-value phổ biến bao gồm Redis, Amazon DynamoDB, và Riak. Lựa chọn cấu trúc key-value phụ thuộc vào yêu cầu cụ thể của ứng dụng và khả năng linh hoạt mà bạn đang tìm kiếm.

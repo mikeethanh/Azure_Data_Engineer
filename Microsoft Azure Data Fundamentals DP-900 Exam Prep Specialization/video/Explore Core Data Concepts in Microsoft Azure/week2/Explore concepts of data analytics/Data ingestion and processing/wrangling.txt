@@ -1,0 +1,21 @@
+
+Thuật ngữ "wrangling" trong ngữ cảnh dữ liệu thường được hiểu là quá trình làm sạch và chuẩn hóa dữ liệu từ các nguồn không đồng nhất để biến chúng thành dạng phù hợp để phân tích. Quá trình này thường bao gồm các bước như lọc, xử lý dữ liệu lặp lại, và chuyển đổi định dạng.
+
+Dưới đây là một số khía cạnh chính của quá trình wrangling:
+
+Thu Thập Dữ Liệu:
+
+Wrangling thường bắt đầu từ việc thu thập dữ liệu từ nhiều nguồn khác nhau, có thể là cơ sở dữ liệu, tệp tin, APIs, hoặc các nguồn dữ liệu trực tuyến.
+Làm Sạch Dữ Liệu:
+
+Quá trình này liên quan đến việc xác định và xử lý các giá trị thiếu, loại bỏ dữ liệu nhiễu, và kiểm tra tính hợp lý của dữ liệu. Làm sạch dữ liệu giúp đảm bảo rằng nó đáp ứng các tiêu chí chất lượng cần thiết cho phân tích.
+Chuẩn Hóa Định Dạng:
+
+Các dữ liệu từ các nguồn khác nhau thường có định dạng khác nhau. Wrangling bao gồm việc chuyển đổi dữ liệu thành định dạng thống nhất để thuận tiện cho việc phân tích. Điều này có thể bao gồm việc chuyển đổi ngày tháng, đơn vị đo lường, hoặc các giá trị dạng văn bản.
+Xử Lý Dữ Liệu Lặp Lại:
+
+Dữ liệu có thể chứa các bản ghi lặp lại hoặc không đồng nhất. Quá trình wrangling đảm bảo rằng mọi thông tin được tổ chức một cách rõ ràng và không có dữ liệu trùng lặp không cần thiết.
+Chuyển Đổi Dữ Liệu:
+
+Nếu cần, wrangling có thể bao gồm việc chuyển đổi dữ liệu từ dạng này sang dạng khác để phù hợp với yêu cầu của bước phân tích tiếp theo.
+Quá trình wrangling là một phần quan trọng trong chuỗi làm việc với dữ liệu, đặc biệt là khi dữ liệu đến từ nhiều nguồn và có độ không đồng nhất. Wrangling giúp đảm bảo rằng dữ liệu là "sạch" và "chuẩn" để từ đó có thể đưa ra những phân tích chính xác và có ý nghĩa.

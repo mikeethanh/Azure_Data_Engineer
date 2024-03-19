@@ -1,0 +1,39 @@
+ETL (Extract, Transform, Load) và ELT (Extract, Load, Transform) đều là chiến lược quan trọng trong việc xử lý dữ liệu, nhưng có sự khác nhau quan trọng về thứ tự thực hiện các bước chính. Dưới đây là sự khác nhau giữa ETL và ELT:
+
+ETL (Extract, Transform, Load):
+Extract (Trích Xuất):
+
+Dữ liệu được trích xuất từ nguồn khác nhau, chẳng hạn như cơ sở dữ liệu, tệp tin, APIs.
+Transform (Biến Đổi):
+
+Dữ liệu được biến đổi trước khi được tải vào hệ thống lưu trữ, thường là data warehouse.
+Load (Tải Vào):
+
+Dữ liệu đã được biến đổi được tải vào hệ thống lưu trữ.
+ELT (Extract, Load, Transform):
+Extract (Trích Xuất):
+
+Dữ liệu được trích xuất từ nguồn khác nhau.
+Load (Tải Vào):
+
+Dữ liệu được tải vào hệ thống lưu trữ mà không cần biến đổi trước.
+Transform (Biến Đổi):
+
+Sau khi dữ liệu đã được tải vào hệ thống lưu trữ, các bước biến đổi được thực hiện để làm sạch, chuẩn hóa, và phân tích dữ liệu.
+Sự Khác Nhau:
+Thứ Tự Thực Hiện:
+
+ETL theo thứ tự "trích xuất, biến đổi, tải vào," trong khi ELT theo thứ tự "trích xuất, tải vào, biến đổi." Sự khác biệt này ảnh hưởng đến cách dữ liệu được xử lý và lưu trữ.
+Lưu Trữ Nguyên Vẹn:
+
+ELT giữ cho dữ liệu nguyên vẹn ngay từ lúc trích xuất, giúp duy trì tính toàn vẹn của nguồn dữ liệu gốc.
+Môi Trường Phân Tán:
+
+ELT thường được ưu tiên khi làm việc với môi trường phân tán như data lake, trong khi ETL thường xuất hiện trong các môi trường data warehouse truyền thống.
+Hiệu Quả Phân Tích:
+
+ETL thích hợp cho việc chuẩn bị dữ liệu trước khi lưu trữ để tối ưu hiệu suất phân tích, trong khi ELT thích hợp cho việc thực hiện các phân tích mạnh mẽ sau khi dữ liệu đã được lưu trữ.
+Linh Hoạt:
+
+ELT thường linh hoạt hơn khi phải xử lý nhiều nguồn dữ liệu và yêu cầu phức tạp.
+Lựa chọn giữa ETL và ELT phụ thuộc vào yêu cầu cụ thể của dự án và môi trường lưu trữ dữ liệu.

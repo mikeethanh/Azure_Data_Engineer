@@ -1,0 +1,32 @@
+
+Data transformations, như việc định dạng lại ngày tháng hoặc chuyển đổi dữ liệu đo lường, là quá trình quan trọng trong việc xử lý dữ liệu để chuẩn bị chúng cho các bước phân tích. Dưới đây là một số loại biến đổi thông thường cùng với ví dụ cụ thể:
+
+Định Dạng Lại Ngày Tháng:
+
+Transformation: Một dạng phổ biến là chuyển đổi ngày tháng từ một định dạng sang một định dạng khác hoặc từ văn bản sang đối tượng ngày tháng.
+Ví Dụ: Chuyển đổi "01/15/2022" thành đối tượng ngày tháng (date object) để thuận tiện cho việc sắp xếp và phân tích theo thời gian.
+Chuyển Đổi Đơn Vị Đo Lường:
+
+Transformation: Chuyển đổi dữ liệu đo lường từ một đơn vị sang đơn vị khác, ví dụ như từ kilogram sang pound, từ mét sang feet.
+Ví Dụ: Chuyển đổi trọng lượng từ kilogram sang pound: 1 kg ≈ 2.20462 pounds.
+Normalizing Dữ Liệu:
+
+Transformation: Đưa dữ liệu về một phạm vi chuẩn để so sánh hoặc kết hợp từ nhiều nguồn khác nhau.
+Ví Dụ: Chuyển đổi các điểm số trong khoảng từ 0 đến 100 thành phần trăm, giúp đồng bộ hóa dữ liệu từ các nguồn khác nhau.
+Chuyển Đổi Dữ Liệu Văn Bản:
+
+Transformation: Chuyển đổi và chuẩn hóa các giá trị văn bản để đả facilitransformation:* Trích xuất thông tin từ văn bản hoặc chuyển đổi các giá trị văn bản thành mã số.
+Ví Dụ: Chuyển đổi trạng thái từ "Active" và "Inactive" thành 1 và 0 để thuận tiện cho việc tính toán.
+Aggregation (Tổng Hợp):
+
+Transformation: Tính toán giá trị tổng hợp dựa trên dữ liệu gốc.
+Ví Dụ: Tính tổng số lượng sản phẩm bán ra hàng tháng từ dữ liệu bán hàng hàng ngày.
+Tính Toán Chỉ Số:
+
+Transformation: Tính toán các chỉ số hoặc tỷ lệ từ các giá trị có sẵn.
+Ví Dụ: Tính tỷ lệ lợi nhuận bằng cách chia lợi nhuận cho doanh số bán hàng.
+Chuyển Đổi Dữ Liệu Vị Trí:
+
+Transformation: Chuyển đổi dữ liệu địa lý hoặc địa chỉ thành các định dạng chuẩn.
+Ví Dụ: Chuyển đổi địa chỉ thành mã zip hoặc chia thành các trường riêng biệt như thành phố, quận, và quốc gia.
+Những biến đổi này giúp chuẩn bị dữ liệu cho các phân tích chi tiết và sâu sắc hơn, đồng thời tối ưu hóa hiệu suất của quá trình phân tích dữ liệu.
