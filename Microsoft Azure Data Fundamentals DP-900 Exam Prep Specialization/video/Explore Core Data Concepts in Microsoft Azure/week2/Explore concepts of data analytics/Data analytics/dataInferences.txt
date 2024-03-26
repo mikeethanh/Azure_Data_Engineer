@@ -1,0 +1,22 @@
+Data inference (Rút Trích Dữ Liệu):
+
+Data inference là quá trình rút ra các kết luận, suy luận, hay dự đoán về dữ liệu dựa trên thông tin có sẵn. Trong lĩnh vực xử lý dữ liệu, data inference thường đi kèm với các phương pháp thống kê và máy học để từ dữ liệu hiện tại tạo ra thông tin mới và kiến thức.
+
+Các bước trong quá trình data inference bao gồm:
+
+Thu Thập Dữ Liệu:
+
+Thu thập dữ liệu từ nguồn có sẵn, thường là một tập dữ liệu đại diện cho quần thể hoặc hệ thống cụ thể.
+Phân Tích Thống Kê:
+
+Sử dụng các phương pháp thống kê để mô tả và tổng hợp dữ liệu. Các phương pháp này bao gồm trung bình, phương sai, phân phối, và các chỉ số thống kê khác.
+Máy Học và Model Hóa:
+
+Áp dụng các thuật toán máy học để xây dựng mô hình từ dữ liệu. Các mô hình này có thể được sử dụng để dự đoán, phân loại, hoặc phân tích xu hướng trong dữ liệu.
+Rút Trích Thông Tin:
+
+Dựa trên kết quả phân tích và mô hình hóa, rút trích thông tin mới từ dữ liệu. Điều này có thể bao gồm dự đoán về tương lai, xác định mối quan hệ, hay chỉ đơn giản là mô tả đặc điểm của dữ liệu.
+Kiểm Định và Đánh Giá:
+
+Kiểm định độ tin cậy của kết quả và đánh giá hiệu suất của mô hình. Điều này giúp đảm bảo tính chính xác và độ tin cậy của các suy luận được rút ra từ dữ liệu.
+Data inference chủ yếu nhằm mục tiêu chuyển đổi dữ liệu thành thông tin và tri thức, tạo ra giá trị thông tin từ những dữ liệu có sẵn.

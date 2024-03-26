@@ -1,0 +1,35 @@
+Data cleaning (làm sạch dữ liệu) bao gồm một loạt các hành động nhằm kiểm tra, hiệu chỉnh và làm sạch dữ liệu để nó có thể được sử dụng một cách chính xác và đáng tin cậy. Dưới đây là một số hành động phổ biến trong quá trình làm sạch dữ liệu:
+
+Loại Bỏ Dữ Liệu Trùng Lặp:
+
+Hành động: Kiểm tra và loại bỏ các bản ghi trùng lặp trong tập dữ liệu.
+Ý nghĩa: Ngăn chặn sự đánh lạc hướng trong phân tích do sự xuất hiện của dữ liệu trùng lặp.
+Xử Lý Dữ Liệu Thiếu:
+
+Hành động: Điền giá trị cho các ô dữ liệu thiếu hoặc loại bỏ các dòng/cột có dữ liệu thiếu quá nhiều.
+Ý nghĩa: Bảo đảm tính toàn vẹn của dữ liệu và tránh hiểu lầm trong quá trình phân tích.
+Kiểm Tra Lỗi Dữ Liệu:
+
+Hành động: Kiểm tra các giá trị ngoại lệ, lỗi nhập liệu hoặc giá trị không hợp lý.
+Ý nghĩa: Đảm bảo rằng dữ liệu đáp ứng các quy tắc kỹ thuật và doanh nghiệp, tránh sự méo mó trong quá trình phân tích.
+Chuyển Đổi Định Dạng Dữ Liệu:
+
+Hành động: Chuyển đổi định dạng ngày tháng, số liệu, v.v. để phù hợp với định dạng chuẩn.
+Ý nghĩa: Đảm bảo tính nhất quán của dữ liệu và thuận tiện cho quá trình phân tích.
+Kiểm Tra và Loại Bỏ Nhiễu (Outliers):
+
+Hành động: Xác định và xử lý giá trị ngoại lệ gây ảnh hưởng đến kết quả phân tích.
+Ý nghĩa: Giảm thiểu ảnh hưởng của các giá trị không phù hợp đối với kết quả phân tích tổng thể.
+Chuẩn Hóa Dữ Liệu:
+
+Hành động: Chuyển đổi dữ liệu về một đơn vị đo lường hoặc định dạng chuẩn.
+Ý nghĩa: Đảm bảo tính nhất quán và so sánh dữ liệu từ nhiều nguồn khác nhau.
+Loại Bỏ Cột/Kiểu Dữ Liệu Không Cần Thiết:
+
+Hành động: Loại bỏ các cột dữ liệu không cần thiết hoặc không chứa thông tin hữu ích.
+Ý nghĩa: Giảm kích thước của tập dữ liệu và tăng hiệu suất trong quá trình phân tích.
+Kiểm Tra Tính Toàn Vẹn Thông Tin:
+
+Hành động: Kiểm tra tính toàn vẹn của các mối quan hệ giữa các trường dữ liệu.
+Ý nghĩa: Đảm bảo rằng các liên kết giữa các dữ liệu là chính xác và đầy đủ.
+Những hành động trên đều quan trọng để đảm bảo rằng dữ liệu được sử dụng trong quá trình phân tích là chính xác, đầy đủ và đáng tin cậy.

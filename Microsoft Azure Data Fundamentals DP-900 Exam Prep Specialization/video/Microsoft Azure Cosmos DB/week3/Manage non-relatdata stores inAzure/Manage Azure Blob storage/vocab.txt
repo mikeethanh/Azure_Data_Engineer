@@ -1,0 +1,19 @@
+Blob storage: A Microsoft Azure service for storing large objects like images, videos, and audio files.
+Container: A logical grouping of blobs within an Azure storage account.
+Page blob: A type of blob optimized for random read/write operations, often used for virtual disk storage.
+Append blob: A type of blob designed for storing data that grows in size over time, such as logs or archives.
+Block blob: A type of blob suitable for storing static data, like images.
+Public access level: Controls who can access blobs in a container. Options include blob (anonymous read-only access) and private (no anonymous access).
+Hierarchy of folders: A way to organize blobs within a container, similar to folders on a computer.
+Soft delete: A feature that allows recovering accidentally deleted blobs for a specified retention period.
+Data Lake Storage: A service for storing massive datasets on Azure. (Hierarchical namespaces is a feature of Data Lake Storage that allows organizing data in a folder structure.)
+AZ Storage container create: An Azure CLI command for creating a new container.
+AZ Storage blob upload: An Azure CLI command for uploading a file to a blob in a container.
+AZ Storage blob upload batch: An Azure CLI command for uploading multiple files to separate blobs in a container.
+Set AZ Storage Blob Content: An Azure PowerShell cmdlet for uploading blob data.
+Get-ChildItem: An Azure PowerShell cmdlet for listing files in a directory.
+List blobs: Retrieving a list of blobs in a container. This can be done through the Azure portal, Azure CLI, or Azure PowerShell.
+Download blob: Retrieving a blob from Azure storage and saving it locally.
+Undelete blob: Recovering a blob that was previously soft-deleted.
+Remove az storage blob: An Azure PowerShell cmdlet for deleting a blob.
+Confirm flag: An option in some Azure commands that prompts the user for confirmation before performing an action (e.g., deleting a blob).

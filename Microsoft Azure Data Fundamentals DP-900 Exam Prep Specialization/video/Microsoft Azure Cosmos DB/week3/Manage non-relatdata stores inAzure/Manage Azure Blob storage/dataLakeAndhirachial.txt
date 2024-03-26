@@ -1,0 +1,28 @@
+1. Data Lake Storage:
+
+Data Lake Storage là một dịch vụ lưu trữ dữ liệu hồ dữ liệu trên nền tảng Azure. Dịch vụ này cung cấp khả năng lưu trữ và xử lý dữ liệu petabyte với hiệu suất và khả năng mở rộng cao. Data Lake Storage được xây dựng trên nền tảng Blob Storage, nhưng cung cấp thêm các tính năng dành cho phân tích dữ liệu lớn, chẳng hạn như:
+
+Hỗ trợ truy cập dữ liệu bằng Hadoop Hive và Spark
+Tích hợp với các dịch vụ Azure khác như Azure HDInsight và Azure Data Factory
+Khả năng quản lý và bảo mật dữ liệu nâng cao
+2. Hierarchical Namespaces:
+
+Hierarchical Namespaces là một tính năng của Data Lake Storage cho phép bạn tổ chức dữ liệu của mình trong cấu trúc thư mục phân cấp. Tính năng này giúp bạn dễ dàng quản lý và truy cập dữ liệu của mình, đặc biệt khi bạn có một lượng lớn dữ liệu.
+
+3. Lợi ích của việc sử dụng Data Lake Storage và Hierarchical Namespaces:
+
+Khả năng lưu trữ và xử lý dữ liệu petabyte
+Hiệu suất và khả năng mở rộng cao
+Hỗ trợ truy cập dữ liệu bằng các công cụ phân tích dữ liệu lớn
+Tích hợp với các dịch vụ Azure khác
+Khả năng quản lý và bảo mật dữ liệu nâng cao
+Dễ dàng quản lý và truy cập dữ liệu
+4. Ví dụ:
+
+Giả sử bạn là một công ty bán lẻ có một lượng lớn dữ liệu giao dịch. Bạn muốn lưu trữ dữ liệu này trong hồ dữ liệu để có thể phân tích nó và đưa ra các quyết định kinh doanh tốt hơn.
+
+Bạn có thể sử dụng Data Lake Storage để lưu trữ dữ liệu giao dịch của mình.
+Bạn có thể sử dụng Hierarchical Namespaces để tổ chức dữ liệu của mình theo năm, tháng, ngày và loại giao dịch.
+Bạn có thể sử dụng các công cụ phân tích dữ liệu lớn như Hadoop Hive và Spark để phân tích dữ liệu của mình.
+Bạn có thể sử dụng Azure HDInsight để chạy các công việc Hadoop và Spark trên dữ liệu của mình.
+Bạn có thể sử dụng Azure Data Factory để tự động hóa các quy trình phân tích dữ liệu của mình.

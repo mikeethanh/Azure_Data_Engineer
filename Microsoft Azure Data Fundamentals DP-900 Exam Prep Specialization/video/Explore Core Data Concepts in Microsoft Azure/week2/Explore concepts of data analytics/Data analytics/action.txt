@@ -1,0 +1,23 @@
+Các hành động trong phân tích dữ liệu được phân loại thành nhiều loại, phản ánh mức độ phức tạp và mục tiêu của quá trình phân tích. Dưới đây là giải thích chi tiết về các hành động phân tích dữ liệu:
+
+Descriptive Analytics (Phân Tích Mô Tả):
+
+Mục Tiêu: Mô tả và tóm tắt thông tin từ dữ liệu hiện tại.
+Hành Động: Điều này bao gồm việc sử dụng các phương tiện thống kê như mean, median, mode, và visualizations như biểu đồ cột, biểu đồ đường để hiểu về tính chất cơ bản của dữ liệu.
+Diagnostic Analytics (Phân Tích Chuẩn Đoán):
+
+Mục Tiêu: Xác định nguyên nhân của sự kiện đã xảy ra trong quá khứ.
+Hành Động: Sử dụng các phương tiện phân tích thống kê và data mining để tìm hiểu tại sao một sự kiện cụ thể đã xảy ra và đưa ra giải thích cho hiện tượng.
+Predictive Analytics (Phân Tích Dự Đoán):
+
+Mục Tiêu: Dự đoán sự kiện tương lai dựa trên dữ liệu hiện tại và quá khứ.
+Hành Động: Sử dụng mô hình học máy và các thuật toán dự đoán để dự đoán xu hướng tương lai, kịch bản, hoặc kết quả.
+Prescriptive Analytics (Phân Tích Mô Tả):
+
+Mục Tiêu: Đề xuất các hành động hoặc chiến lược để đạt được một mục tiêu cụ thể.
+Hành Động: Sử dụng kết quả từ phân tích dự đoán và kết hợp với thông tin môi trường để đề xuất các bước cụ thể để đạt được kết quả mong muốn.
+Cognitive Analytics (Phân Tích Nhận Thức):
+
+Mục Tiêu: Tăng cường khả năng đánh giá và ra quyết định của con người bằng cách sử dụng trí tuệ nhân tạo và máy học.
+Hành Động: Sử dụng các thuật toán học máy, xử lý ngôn ngữ tự nhiên, và các công nghệ AI để tạo ra hệ thống có khả năng "học" và tương tác với người sử dụng.
+Mỗi loại phân tích đều đóng vai trò quan trọng trong việc trích xuất thông tin từ dữ liệu và hỗ trợ quyết định. Các hành động này thường được sử dụng cùng nhau để cung cấp cái nhìn toàn diện và sâu sắc hơn về dữ liệu và thông tin.

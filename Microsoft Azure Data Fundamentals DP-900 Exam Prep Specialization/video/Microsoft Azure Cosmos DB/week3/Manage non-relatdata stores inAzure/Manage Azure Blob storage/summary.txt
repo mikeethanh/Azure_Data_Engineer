@@ -1,0 +1,96 @@
+1. Giới thiệu:
+
+Azure Blob Storage là dịch vụ lưu trữ các đối tượng lớn như hình ảnh, video, tệp âm thanh.
+Blobs được nhóm thành các container trong tài khoản lưu trữ Azure.
+Có 3 loại blob: page blob, append blob và block blob.
+2. Quản lý container:
+
+Tạo container bằng Azure Portal, Azure CLI hoặc Azure PowerShell.
+Xác định mức truy cập công khai cho container.
+Sắp xếp blobs trong container bằng hệ thống thư mục.
+3. Upload và Download Blobs:
+
+Sử dụng Azure Portal, Azure CLI hoặc Azure PowerShell để upload và download blobs.
+Có thể upload nhiều tệp cùng lúc với lệnh "AZ Storage blob upload batch".
+Azure PowerShell cung cấp cmdlet "Set AZ Storage Blob Content" để upload dữ liệu blob.
+4. Xóa và Khôi phục Blobs:
+
+Xóa blob bằng Azure Portal, Azure CLI hoặc Azure PowerShell.
+Tùy chọn "Soft delete" cho phép khôi phục blobs đã xóa trong thời gian lưu giữ.
+5. Các lệnh Azure CLI và PowerShell:
+
+Bài viết cung cấp các lệnh Azure CLI và PowerShell để thực hiện các thao tác quản lý blob storage.
+6. Kết luận:
+
+Bài viết giới thiệu cách quản lý Azure Blob Storage, bao gồm tạo container, upload/download blobs, và sử dụng các lệnh Azure CLI và PowerShell.
+
+
+
+Giới thiệu chi tiết về Azure Blob Storage:
+1. Dịch vụ lưu trữ:
+
+Azure Blob Storage là dịch vụ lưu trữ đám mây được cung cấp bởi Microsoft Azure. Dịch vụ này cho phép bạn lưu trữ các đối tượng lớn, chẳng hạn như hình ảnh, video, tệp âm thanh và các tệp tin khác.
+
+2. Blob:
+
+Blob là đơn vị cơ bản của dữ liệu trong Azure Blob Storage. Một blob là một tập hợp dữ liệu có thể lên đến 4,7 TB. Blob có thể ở bất kỳ định dạng nào, chẳng hạn như JPG, PNG, MP4, WAV, v.v.
+
+3. Container:
+
+Container là một nhóm các blob được tổ chức logic trong tài khoản lưu trữ Azure. Container giúp bạn sắp xếp và quản lý các blob của mình một cách dễ dàng.
+
+4. Loại blob:
+
+Có ba loại blob chính trong Azure Blob Storage:
+
+Page blob: Loại blob này được tối ưu hóa cho các hoạt động đọc/ghi ngẫu nhiên. Page blob thường được sử dụng cho lưu trữ đĩa ảo cho Azure Virtual Machines.
+Append blob: Loại blob này được thiết kế cho việc lưu trữ dữ liệu tăng dần theo thời gian, chẳng hạn như nhật ký hoặc dữ liệu lưu trữ.
+Block blob: Loại blob này là phù hợp nhất cho dữ liệu tĩnh, chẳng hạn như hình ảnh.
+5. Ưu điểm của Azure Blob Storage:
+
+Khả năng mở rộng cao: Azure Blob Storage có thể lưu trữ lượng dữ liệu khổng lồ.
+Hiệu suất cao: Azure Blob Storage cung cấp hiệu suất truy cập dữ liệu cao.
+Bền bỉ: Azure Blob Storage được thiết kế để đảm bảo độ bền cao cho dữ liệu của bạn.
+Bảo mật: Azure Blob Storage cung cấp các tính năng bảo mật mạnh mẽ để bảo vệ dữ liệu của bạn.
+6. Tóm tắt:
+
+Azure Blob Storage là dịch vụ lưu trữ đám mây mạnh mẽ, linh hoạt và an toàn cho các đối tượng lớn. Dịch vụ này cung cấp nhiều tính năng và lợi ích giúp bạn lưu trữ và quản lý dữ liệu của mình một cách hiệu quả.
+
+
+1. Tạo container:
+
+Bạn có thể tạo container bằng ba cách:
+2. Xác định mức truy cập công khai:
+
+Mức truy cập công khai cho container xác định ai có thể truy cập các blob trong container. Bạn có thể chọn một trong các mức sau:
+
+Blob: Cho phép truy cập đọc ẩn danh cho các blob.
+Private: Không cho phép truy cập ẩn danh.
+Mức truy cập công khai cho container trong Azure Blob Storage xác định ai có thể truy cập các blob trong container. Có hai mức truy cập công khai chính:
+
+1. Blob:
+
+Cho phép truy cập đọc ẩn danh cho các blob.
+Bất kỳ ai có URL của blob đều có thể truy cập và tải xuống blob.
+Không cho phép truy cập ghi ẩn danh.
+Người dùng phải được xác thực để tải lên hoặc xóa blob.
+2. Private:
+
+Không cho phép truy cập ẩn danh.
+Người dùng phải được xác thực bằng Azure AD hoặc SAS (Shared Access Signature) để truy cập, tải xuống, tải lên hoặc xóa blob.
+3. Lựa chọn mức truy cập:
+
+Mức truy cập bạn chọn sẽ phụ thuộc vào nhu cầu bảo mật của bạn:
+
+Blob: Thích hợp cho các container lưu trữ dữ liệu công khai mà bạn muốn mọi người có thể truy cập.
+Private: Thích hợp cho các container lưu trữ dữ liệu nhạy cảm mà bạn chỉ muốn những người được ủy quyền truy cập.
+4. Lưu ý:
+
+Thay đổi mức truy cập công khai cho container sẽ ảnh hưởng đến tất cả các blob trong container.
+Bạn có thể thay đổi mức truy cập công khai bất cứ lúc nào.
+5. Ví dụ:
+
+Giả sử bạn có một container tên là "images" để lưu trữ ảnh. Một số ảnh là ảnh gia đình cá nhân, một số ảnh là ảnh công khai cho trang web của bạn.
+
+Ảnh gia đình: Bạn nên đặt mức truy cập công khai cho container là "Private" để chỉ bạn và những người được ủy quyền mới có thể truy cập ảnh.
+Ảnh công khai: Bạn nên đặt mức truy cập công khai cho container là "Blob" để mọi người có thể truy cập ảnh từ trang web của bạn.s
