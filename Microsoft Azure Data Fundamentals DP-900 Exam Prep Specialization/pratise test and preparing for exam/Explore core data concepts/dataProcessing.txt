@@ -1,0 +1,32 @@
+
+Data Processing là một trong những giai đoạn quan trọng trong quá trình phân tích dữ liệu, nơi dữ liệu được xử lý để tạo ra thông tin có ý nghĩa và hữu ích cho quyết định kinh doanh. Dưới đây là một số khía cạnh quan trọng của giai đoạn này:
+
+Data Cleaning (Làm Sạch Dữ Liệu):
+
+Mục Tiêu: Loại bỏ dữ liệu lỗi, giá trị thiếu, và các vấn đề khác để đảm bảo tính nhất quán và chất lượng của dữ liệu.
+Ví Dụ: Xử lý giá trị thiếu, kiểm tra lỗi trong dữ liệu, và chuẩn hóa các đơn vị đo lường.
+Data Integration (Tích Hợp Dữ Liệu):
+
+Mục Tiêu: Kết hợp dữ liệu từ nhiều nguồn khác nhau thành một nguồn dữ liệu đồng nhất.
+Ví Dụ: Kết hợp dữ liệu từ hệ thống CRM và hệ thống bán hàng để có cái nhìn toàn diện về khách hàng.
+Data Transformation (Biến Đổi Dữ Liệu):
+
+Mục Tiêu: Chuyển đổi dữ liệu thành định dạng phù hợp để dễ dàng phân tích.
+Ví Dụ: Chuyển đổi ngày tháng thành tuần hoặc tháng, chuẩn hóa các biến đo lường, và tạo các biến mới dựa trên dữ liệu hiện có.
+Data Aggregation (Tổng Hợp Dữ Liệu):
+
+Mục Tiêu: Tính toán các giá trị tổng hợp, trung bình, hay các chỉ số khác từ dữ liệu chi tiết.
+Ví Dụ: Tính tổng doanh số bán hàng theo khu vực, tính trung bình giá sản phẩm, và tổng hợp dữ liệu theo thời gian.
+Data Reduction (Giảm Kích Thước Dữ Liệu):
+
+Mục Tiêu: Giảm kích thước của dữ liệu để tăng tốc độ xử lý và giảm yêu cầu lưu trữ.
+Ví Dụ: Lựa chọn chỉ các biến quan trọng, loại bỏ các bản ghi không cần thiết, hoặc sử dụng kỹ thuật tổng hợp để giảm kích thước.
+Data Enrichment (Bổ Sung Dữ Liệu):
+
+Mục Tiêu: Bổ sung thông tin từ các nguồn khác nhau để làm phong phú hóa dữ liệu.
+Ví Dụ: Thêm thông tin về thời tiết, địa lý, hoặc các dữ liệu bên ngoài để làm giàu thông tin đã có.
+Data Sampling (Lấy Mẫu Dữ Liệu):
+
+Mục Tiêu: Sử dụng một lượng nhỏ dữ liệu để đại diện cho toàn bộ dữ liệu.
+Ví Dụ: Lấy mẫu 10% dữ liệu để nhanh chóng kiểm tra và phân tích.
+Quá trình Data Processing đảm bảo rằng dữ liệu được chuẩn bị đúng cách để tiếp tục vào các bước phân tích và làm nền tảng cho quyết định kinh doanh. Điều này giúp tối ưu hóa hiệu suất của quy trình phân tích dữ liệu và đảm bảo thông tin được tạo ra là chính xác và hữu ích.

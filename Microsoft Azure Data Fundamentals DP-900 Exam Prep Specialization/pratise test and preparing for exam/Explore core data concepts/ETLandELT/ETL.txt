@@ -1,0 +1,25 @@
+ETL là một viết tắt cho Extract (Trích xuất), Transform (Biến đổi), và Load (Tải vào), là một quá trình quan trọng trong xử lý dữ liệu. Nó liên quan chặt chẽ đến data processing, đặc biệt là trong việc chuẩn bị dữ liệu để lưu trữ hoặc phân tích. Dưới đây là một giải thích chi tiết về từng giai đoạn của quá trình ETL:
+
+Extract (Trích Xuất):
+
+Hành Động: Trích xuất dữ liệu từ các nguồn khác nhau như cơ sở dữ liệu, tệp tin, APIs, hoặc nguồn dữ liệu trực tuyến.
+Mục Tiêu: Lấy dữ liệu từ các nguồn nguồn này để chuẩn bị cho bước biến đổi.
+Transform (Biến Đổi):
+
+Hành Động: Xử lý dữ liệu bằng cách làm sạch, chuẩn hóa, chuyển đổi định dạng, và thực hiện các biến đổi phức tạp khác để làm cho dữ liệu phù hợp với mô hình lưu trữ hoặc nhu cầu phân tích.
+Mục Tiêu: Đảm bảo tính nhất quán, chất lượng, và sẵn sàng của dữ liệu cho bước tiếp theo.
+Load (Tải Vào):
+
+Hành Động: Tải dữ liệu đã được biến đổi vào hệ thống lưu trữ, thường là một data warehouse hoặc data mart.
+Mục Tiêu: Lưu trữ dữ liệu một cách hiệu quả và tổ chức để phục vụ cho các nhu cầu phân tích, báo cáo, và truy vấn dữ liệu.
+Lợi Ích của ETL:
+
+Tính Nhất Quán: ETL giúp đảm bảo rằng dữ liệu từ các nguồn khác nhau được chuẩn hóa và biến đổi thành một định dạng chung, giúp đảm bảo tính nhất quán của dữ liệu.
+Chất Lượng Dữ Liệu: Quá trình biến đổi thường bao gồm các bước kiểm tra lỗi và làm sạch dữ liệu, giúp tăng cường chất lượng dữ liệu.
+Hiệu Suất: Dữ liệu đã được biến đổi và tải vào một hệ thống lưu trữ được tối ưu hóa để phục vụ cho các truy vấn và phân tích một cách hiệu quả.
+Phân Tích và Báo Cáo: Dữ liệu đã được xử lý sẵn sàng cho việc thực hiện các phân tích, báo cáo, và truy vấn, giúp doanh nghiệp đưa ra quyết định dựa trên thông tin đáng tin cậy.
+Khi Nào Áp Dụng ETL:
+
+Khi có nhiều nguồn dữ liệu khác nhau cần kết hợp.
+Khi dữ liệu cần được chuẩn hóa và biến đổi để phù hợp với một mô hình lưu trữ hay để thực hiện phân tích.
+Khi cần lưu trữ dữ liệu một cách tổ chức và hiệu quả để dễ dàng truy xuất và sử dụng.
