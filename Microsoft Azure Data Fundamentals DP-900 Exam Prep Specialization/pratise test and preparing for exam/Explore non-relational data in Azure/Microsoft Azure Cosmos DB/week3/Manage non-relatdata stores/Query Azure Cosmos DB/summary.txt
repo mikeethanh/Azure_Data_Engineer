@@ -1,0 +1,76 @@
+1. Cosmos DB là gì?
+
+Là hệ quản trị cơ sở dữ liệu NoSQL được cung cấp bởi Microsoft trên nền tảng Azure.
+NoSQL: "Not Only SQL", là loại cơ sở dữ liệu không sử dụng mô hình dữ liệu quan hệ truyền thống (bảng, cột, hàng) như SQL.
+Cosmos DB hỗ trợ nhiều mô hình dữ liệu NoSQL khác nhau như key-value, wide-row, column family.
+2. SQL API là gì?
+
+Là một giao diện lập trình ứng dụng (API) cho phép truy vấn dữ liệu trong Cosmos DB bằng cú pháp SQL quen thuộc.
+Cung cấp cách thức truy vấn linh hoạt và mạnh mẽ cho dữ liệu NoSQL.
+
+IV. Giới hạn của Cosmos DB SQL API
+1. Không hỗ trợ GROUP BY:
+
+Cosmos DB SQL API không hỗ trợ câu lệnh GROUP BY để nhóm dữ liệu theo các trường và tính toán tổng hợp cho từng nhóm.
+Lý do:
+Cấu trúc dữ liệu NoSQL trong Cosmos DB khác với cấu trúc bảng truyền thống trong SQL.
+Việc hỗ trợ GROUP BY sẽ yêu cầu thay đổi đáng kể kiến trúc cơ bản của Cosmos DB.
+2. Không hỗ trợ JOIN giữa các tài liệu khác nhau:
+
+Cosmos DB SQL API chỉ hỗ trợ JOIN giữa các trường trong cùng một tài liệu.
+Lý do:
+Cosmos DB được thiết kế cho dữ liệu NoSQL, thường được lưu trữ dưới dạng tài liệu JSON.
+Việc JOIN giữa các tài liệu khác nhau có thể dẫn đến truy vấn phức tạp và ảnh hưởng đến hiệu suất.
+Giải pháp thay thế:
+
+Sử dụng các hàm tổng hợp trong SELECT:
+
+Ví dụ: sử dụng COUNT, SUM, AVG, MAX, MIN để tính toán tổng hợp cho các trường dữ liệu.
+Sử dụng JavaScript:
+
+Viết mã JavaScript để thực hiện logic GROUP BY và JOIN theo yêu cầu.
+
+V. Sử dụng Data Explorer
+Data Explorer là một công cụ tích hợp trong Azure portal giúp bạn dễ dàng:
+
+Tạo và chạy truy vấn SQL cho dữ liệu trong container Cosmos DB.
+Xem kết quả dưới dạng danh sách tài liệu JSON.
+Lưu và mở lại truy vấn sau này.
+1. Tạo và chạy truy vấn
+1.1 Mở Data Explorer:
+
+Truy cập Azure portal.
+Chọn tài khoản Cosmos DB của bạn.
+Mở container bạn muốn truy vấn.
+Nhấp vào tab Data Explorer.
+1.2 Viết truy vấn SQL:
+
+Nhập truy vấn SQL vào khung soạn thảo.
+Ví dụ:
+SELECT * FROM Customers (Lấy tất cả dữ liệu từ container Customers)
+SELECT Name, City FROM Customers WHERE State = 'California' (Lấy tên và thành phố của khách hàng ở California)
+1.3 Chạy truy vấn:
+
+Nhấp vào nút Execute Query (Thực thi truy vấn).
+Kết quả sẽ hiển thị dưới dạng danh sách tài liệu JSON.
+2. Xem kết quả
+Data Explorer hiển thị kết quả truy vấn dưới dạng danh sách tài liệu JSON.
+Mỗi tài liệu được hiển thị trên một dòng riêng.
+Bạn có thể cuộn qua danh sách để xem tất cả kết quả.
+Nhấp vào một tài liệu để xem chi tiết.
+3. Lưu và mở lại truy vấn
+Lưu truy vấn: Nhấp vào nút Save (Lưu) để lưu truy vấn.
+Nhập tên cho truy vấn.
+Chọn thư mục để lưu truy vấn.
+Mở lại truy vấn: Nhấp vào nút Open Query (Mở truy vấn).
+Chọn truy vấn bạn muốn mở từ danh sách.
+Giải thích chi tiết đoạn văn bản:
+Đoạn văn bản tóm tắt các chức năng chính của Data Explorer:
+
+Công cụ trong Azure portal: Data Explorer là một phần của Azure portal, giúp bạn dễ dàng truy cập và sử dụng.
+Tạo và chạy truy vấn: Cho phép bạn viết và thực thi truy vấn SQL để truy xuất dữ liệu từ container Cosmos DB.
+Cho phép xem kết quả dưới dạng danh sách tài liệu JSON: Hiển thị kết quả truy vấn dưới dạng dễ đọc và dễ hiểu.
+Lưu và mở lại truy vấn: Giúp bạn lưu trữ và truy cập lại các truy vấn thường dùng.
+Kết luận:
+
+Data Explorer là một công cụ hữu ích giúp bạn truy vấn, chỉnh sửa và quản lý dữ liệu trong container Cosmos DB một cách dễ dàng.

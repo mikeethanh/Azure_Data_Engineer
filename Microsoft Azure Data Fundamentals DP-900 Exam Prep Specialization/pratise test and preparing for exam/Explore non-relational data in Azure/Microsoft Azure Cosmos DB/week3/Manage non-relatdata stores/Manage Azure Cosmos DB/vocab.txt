@@ -1,0 +1,18 @@
+NoSQL: Loại cơ sở dữ liệu phi quan hệ (không tuân theo cấu trúc bảng như SQL)
+JSON: JavaScript Object Notation (Ký hiệu đối tượng JavaScript), một định dạng dữ liệu thường được dùng để trao đổi dữ liệu giữa các ứng dụng.
+Cosmos DB: Azure Cosmos DB, một dịch vụ cơ sở dữ liệu NoSQL của Microsoft
+Entity: Thực thể, một đối tượng hoặc khái niệm được lưu trữ trong cơ sở dữ liệu
+Partition: Phân vùng, một cách để chia nhỏ dữ liệu trong Cosmos DB
+Partition key: Khóa phân vùng, trường dữ liệu được dùng để phân chia dữ liệu vào các phân vùng
+API: Giao diện lập trình ứng dụng (Application Programming Interface), một tập các hàm, giao thức, công cụ, đối tượng và các dịch vụ khác được dùng để xây dựng các ứng dụng phần mềm.
+SQL API: Giao diện SQL, một API của Cosmos DB cho phép truy vấn dữ liệu bằng cú pháp giống như ngôn ngữ truy vấn SQL
+Table API: Giao diện Table, một API của Cosmos DB tương thích với Azure Table Storage
+MongoDB API: Giao diện MongoDB, một API của Cosmos DB tương thích với cơ sở dữ liệu MongoDB
+Cassandra API: Giao diện Cassandra, một API của Cosmos DB tương thích với cơ sở dữ liệu Cassandra
+Gremlin API: Giao diện Gremlin, một API của Cosmos DB cho phép truy vấn dữ liệu theo dạng đồ thị
+Gremlin: Ngôn ngữ truy vấn dữ liệu dạng đồ thị
+Bulk load: Nạp dữ liệu ồ ạt
+Azure Data Factory: Nhà máy dữ liệu Azure, một dịch vụ của Microsoft để tích hợp và di chuyển dữ liệu giữa các kho lưu trữ dữ liệu khác nhau
+Cosmos DB BulkExecutor library: Thư viện BulkExecutor của Cosmos DB, một thư viện phần mềm giúp nạp dữ liệu ồ ạt vào Cosmos DB
+Data Explorer: Trình khám phá dữ liệu, một công cụ để xem và thao tác với dữ liệu trong Cosmos DB
+Throughput: Thông lượng, khả năng xử lý các yêu cầu đọc/ghi dữ liệu đồng thời

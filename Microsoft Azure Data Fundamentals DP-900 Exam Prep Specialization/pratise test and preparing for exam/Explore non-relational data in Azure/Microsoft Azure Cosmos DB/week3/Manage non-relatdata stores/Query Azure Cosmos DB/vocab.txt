@@ -1,0 +1,34 @@
+Cosmos DB SQL API: Giao diện lập trình ứng dụng SQL cho Azure Cosmos DB (Application Programming Interface - API)
+Dialect: Phương ngữ (của một ngôn ngữ)
+Select statement: Câu lệnh SELECT (trong SQL)
+NCC SQL compliant: Tuân theo chuẩn NCC SQL (National Computing Centre - Trung tâm Điện toán Quốc gia)
+Container: Container (đơn vị lưu trữ dữ liệu)
+Alias: Bí danh
+Clause: Khoản (trong câu lệnh SQL)
+Property: Thuộc tính
+Logical condition: Điều kiện logic
+Filter: Bộ lọc
+Order by clause: Khoản ORDER BY (Sắp xếp theo)
+Join clause: Khoản JOIN (Nối)
+Unary: Một ngôi (toán học)
+Arithmetic: Số học
+Bitwise: Bitwise (toán học bit)
+Logical: Logic
+Comparison: So sánh
+String: Chuỗi
+Concatenate: Nối chuỗi
+Ternary: Ba ngôi (toán học)
+Distinct: Phân biệt
+Top operator: Toán tử TOP (trả về kết quả hàng đầu)
+Between operation: Toán tử BETWEEN (giữa)
+Defined operator: Toán tử DEFINED (được định nghĩa)
+Aggregate functions: Các hàm tổng hợp
+Scalar value: Giá trị vô hướng (toán học)
+Subtotals: Tổng phụ
+Cosmos DB container: Container Cosmos DB
+Toolbar: Thanh công cụ
+Query pane: Bảng điều khiển truy vấn
+Cosmos DB SQL API: Giao diện lập trình ứng dụng SQL cho Azure Cosmos DB (API)
+Items page: Trang các mục
+Open Query command: Lệnh Mở truy vấn
+Upload items: Tải lên các mục
